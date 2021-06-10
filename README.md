@@ -7,7 +7,7 @@
 ### 1. 准备好数据集
 
 - 下载数据集
-- 
+
 wget https://dataset-bj.cdn.bcebos.com/qianyan/bq_corpus.zip
 
 wget https://dataset-bj.cdn.bcebos.com/qianyan/lcqmc.zip
@@ -15,7 +15,7 @@ wget https://dataset-bj.cdn.bcebos.com/qianyan/lcqmc.zip
 wget https://dataset-bj.cdn.bcebos.com/qianyan/paws-x-zh.zip
 
 - 解压数据集到 ./data 目录
-- 
+
 unzip ./bq_corpus.zip -d ./data/
 
 unzip ./lcqmc.zip -d ./data/
@@ -23,11 +23,11 @@ unzip ./lcqmc.zip -d ./data/
 unzip ./paws-x-zh.zip -d ./data/
 
 - 删除压缩包
-- 
+
 rm bq_corpus.zip lcqmc.zip paws-x-zh.zip
 
 - 重新命名
-- 
+
 mv ./data/paws-x-zh/ ./data/paws-x/
 
 ### 2. 训练
