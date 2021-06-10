@@ -378,7 +378,7 @@ if __name__ == '__main__':
     # paws-x        0.85350 epoch=2, 0.85650 epoch=4, 0.8580 epoch=5 
     # bq_corpus     0.84860 epoch=1, 0.86000 epoch=2  0.86030 epoch=4 0.86040 epoch=5
 
-    data_classes = ['bq_corpus']
+    data_classes = ['lcqmc', 'bq_corpus', 'paws-x'] 
 
     for data_class in data_classes:
 
